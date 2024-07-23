@@ -24,6 +24,12 @@ body {
 .margining {
   margin: 0 2.2rem;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 22;
+}
 .grid {
   display: grid;
 }
@@ -351,7 +357,7 @@ footer {
 }
 
 .full-stretch.heading {
-  margin-top: 5.2rem;
+  margin-top: 12.2rem;
   text-align: center;
   color: rgb(209, 255, 192);
   margin-bottom: 5.2rem;
@@ -647,7 +653,7 @@ footer {
 .Technical-skills h1 {
   text-align: center;
   font-size: 4.8rem;
-  margin-top: 2.4rem;
+  margin-top: 8rem;
   margin-bottom: 1.2rem;
 }
 
@@ -1402,13 +1408,13 @@ footer {
     border-radius: 50%;
   }
 
-  .non-Technical-skills h1,
+  /* .non-Technical-skills h1,
   .Technical-skills h1 {
     text-align: center;
     font-size: 2.8rem;
     margin-top: 1.4rem;
     margin-bottom: 1.2rem;
-  }
+  } */
   .non-Technical-skills article,
   .Technical-skills article {
     height: 150rem;
@@ -1586,13 +1592,13 @@ footer {
     margin-left: 19rem;
   }
 
-  .non-Technical-skills h1,
+  /* .non-Technical-skills h1,
   .Technical-skills h1 {
     text-align: center;
     font-size: 2.8rem;
     margin-top: 1.4rem;
     margin-bottom: 1.2rem;
-  }
+  } */
   .non-tech-inner-shell .left,
   .non-tech-inner-shell .right,
   .tech-inner-shell .left,
@@ -1678,13 +1684,13 @@ footer {
     margin-left: 16rem;
   }
 
-  .non-Technical-skills h1,
+  /* .non-Technical-skills h1,
   .Technical-skills h1 {
     text-align: center;
     font-size: 2.8rem;
     margin-top: 1.4rem;
     margin-bottom: 1.2rem;
-  }
+  } */
   .non-tech-inner-shell .left,
   .non-tech-inner-shell .right,
   .tech-inner-shell .left,
