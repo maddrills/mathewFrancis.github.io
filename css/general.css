@@ -1528,6 +1528,12 @@ footer {
     margin: auto;
   }
 
+  .intro-section {
+    background-color: blanchedalmond;
+    margin-top: 12rem;
+    margin-bottom: 8rem;
+  }
+
   .tech-outer-shell,
   .non-tech-outer-shell {
     /* packages all the inner shells */
@@ -1535,11 +1541,6 @@ footer {
     margin-top: 5rem;
     margin-bottom: 12rem;
     right: -13.8rem;
-  }
-  .intro-section {
-    background-color: blanchedalmond;
-    margin-top: 2rem;
-    margin-bottom: 8rem;
   }
   .align2d {
     display: flex;
@@ -1667,6 +1668,11 @@ footer {
     padding: 0 0.2rem;
     margin: auto;
   }
+  .intro-section {
+    background-color: blanchedalmond;
+    margin-top: 12rem;
+    margin-bottom: 8rem;
+  }
 
   .tech-outer-shell,
   .non-tech-outer-shell {
@@ -1718,11 +1724,6 @@ footer {
     color: #555;
   }
 
-  .intro-section {
-    background-color: blanchedalmond;
-    margin-top: 2rem;
-    margin-bottom: 8rem;
-  }
   .align2d {
     display: flex;
     flex-direction: column;
