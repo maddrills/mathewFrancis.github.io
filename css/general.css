@@ -1227,6 +1227,20 @@ footer {
     font-weight: 450;
   }
 
+  .align2d {
+    display: flex;
+    flex-direction: column;
+    gap: 40.2px;
+    padding: 1.4rem 1.8rem;
+    align-items: center;
+  }
+
+  .profile-image img {
+    border-radius: 50%;
+    height: 24rem;
+    width: auto;
+  }
+
   .circular-info-2,
   .circular-info-4,
   .circular-info-6 {
