@@ -76,6 +76,8 @@ const cangeNavBar = function (
   //const config = " 5px solid rgb(187, 0, 0)";
   const underline = document.querySelector(`.main-nav-link${num}`);
   console.log((underline.style.borderBottom = config));
+  underline.style.transition = "border-bottom 0.10s";
+  //underline.style.fontSize = "2.4rem";
 };
 
 if (document.getElementById("introPage")) {
