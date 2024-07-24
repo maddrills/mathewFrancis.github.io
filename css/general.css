@@ -460,7 +460,7 @@ footer {
 
 .card-element article h4 {
   text-align: center;
-  margin-top: 1.8rem;
+  margin-top: 2.8rem;
   margin-bottom: 1.8rem;
   font-size: 3.4rem;
   color: rgb(209, 255, 192);
@@ -468,13 +468,24 @@ footer {
 }
 
 .card-element article ul {
-  margin: 2.2rem;
-  font-size: 2.2rem;
+  margin: 4rem;
+  font-size: 2rem;
   list-style: none;
 }
 .card-element article ul li {
   color: rgb(255, 255, 255);
   padding: 1.2rem;
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.card-element article ul li:first-child svg {
+  width: 3.8rem;
+}
+
+.card-element article ul li svg {
+  fill: #68bd45;
 }
 
 .peoject-button {
@@ -782,7 +793,7 @@ footer {
   }
   .card-element article ul {
     margin: 2 2.7rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
     list-style: none;
   }
   .outer-fridge.containment {
