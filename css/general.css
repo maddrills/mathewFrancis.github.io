@@ -1091,6 +1091,7 @@ footer {
     /* packages all the inner shells */
     row-gap: 20rem;
     right: -80%;
+    /* margin-right: 7.5rem; */
   }
 
   .align2d {
@@ -1135,9 +1136,9 @@ footer {
     display: inline;
   }
 
-  .snake-pattern-top .grid-two {
+  /* .snake-pattern-top .grid-two {
     grid-template-columns: 1fr;
-  }
+  } */
   .circular-info {
     width: 30.7rem;
     height: 22.4rem;
